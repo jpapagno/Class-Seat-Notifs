@@ -25,8 +25,8 @@ def main():
 
 # Course: (course_code, course_name)
 def activate():
-    email_to_courses = {"roeger.c@northeastern.edu": [("16626", "international orgo", [18])],
-                        "dustin1.noonan@gmail.com": [("18268", "AI")]}
+    email_to_courses = {"example1@school.edu": [("16626", "international orgo", [18])],
+                        "example2@gmail.com": [("18268", "AI")]}
     driver = setup_driver()
     for receiver, courses in email_to_courses.items():
         for course in courses:
